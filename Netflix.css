@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('money-heist.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6); /* To darken the background */
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.language-select {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.signin-btn {
+    background-color: #e50914;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 150px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.get-started-btn {
+    background-color: #e50914;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
